@@ -1,4 +1,4 @@
-const Sequelize = require('require');
+const Sequelize = require('sequelize');
 const database = require('../db');
 
 const Link = database.define('link',{

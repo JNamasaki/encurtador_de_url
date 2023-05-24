@@ -13,7 +13,7 @@
   var app = require('../app');
   var debug = require('debug')('encurtador-de-url:server');
   var http = require('http');
-  var createError = require('http-errors');
+  
 
 
   /**
@@ -97,4 +97,4 @@
     debug('Listening on ' + bind);
   }
 
-});
+})();
